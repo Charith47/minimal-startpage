@@ -1,0 +1,67 @@
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(38, 39, 47, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+  
+#fixedOverlay{
+    user-select: none;
+    position: fixed; 
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+*{
+    box-sizing: border-box;
+}
+  
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+    outline: none;
+}
+  
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+  
+form.example button:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+  
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+form.example button:active{
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+}

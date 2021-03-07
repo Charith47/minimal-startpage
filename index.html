@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello, Charith</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="startstyle.css" type="text/css">
+        <link rel="stylesheet" href="searchbar.css" type="text/css">
+    </head>
+    <body>
+
+        <div id="overlay">
+            <div id="fixedOverlay">
+                <h1 style="text-align: left;">Search</h1>
+                <form class="example" onsubmit="return false" >
+                    <input autocomplete="off" type="text" placeholder="Search.." name="search" id="searchBar">
+                    <button type="button" onclick="search()"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div id="fixedBox">
+
+            <p id="clock">~TIME TEST</p>
+            <img id="mainImg" onerror="this.onerror=null;this.src='altimage.jpg';" >
+
+            <h1 id="greet">Good morning!</h1>
+
+            <table id="table">
+                
+                <tr class="captions">
+                    <td style="background-color: #cc241d;">Social</td>
+                    <td style="background-color: #d65d0e;">Dev</td>
+                    <td style="background-color: #b16286;">Work</td>
+                    <td style="background-color: #458588;">Media</td>
+                    <td style="background-color: #689d6a;">Gaming</td>
+                </tr>   
+
+                <tr class="content">
+                    <td><a href="https://www.facebook.com/" target="_self"><i class="fab fa-facebook"></i> Facebook</a></td>
+                    <td><a href="https://www.hackerrank.com/dashboard" target="_self"><i class="fab fa-hackerrank"></i> Hackerrank</a></td>
+                    <td><a href="http://lms.kdu.ac.lk/lms/" target="_self"><i class="fas fa-graduation-cap"></i> LMS-O</a></td>
+                    <td><a href="https://www.youtube.com/" target="_self"><i class="fab fa-youtube"></i> Youtube</a></td>
+                    <td><a href="https://battlelog.battlefield.com/bf4/servers/" target="_self"><i class="fas fa-fighter-jet"></i> Battlelog</a></td>
+                </tr>
+
+                <tr class="content">
+                    <td><a href="https://www.reddit.com/" target="_self"><i class="fab fa-reddit"></i> Reddit</a></td>
+                    <td><a href="https://github.com/" target="_self"><i class="fab fa-github"></i> Github</a></td>
+                    <td><a href="http://nw.lms.kdu.ac.lk/lms/" target="_self"><i class="fas fa-graduation-cap"></i> LMS-N</a></td>
+                    <td><a href="https://vimeo.com/" target="_self"><i class="fab fa-vimeo-v"></i> Vimeo</a></td>
+                    <td><a href="https://store.steampowered.com/" target="_self"><i class="fab fa-steam"></i> Steam</a></td>
+                </tr>
+
+                <tr class="content">
+                    <td><a href="https://www.instagram.com/" target="_self"><i class="fab fa-instagram"></i> Instagram</a></td>
+                    <td><a href="https://www.w3schools.com/" target="_self"><i class="fab fa-weebly"></i> w3schools</a></td>
+                    <td><a href="https://mail.google.com/mail/u/0/#inbox" target="_self"><i class="fas fa-inbox"></i> Gmail</a></td>
+                    <td><a href="https://www.videocopilot.net/" target="_self"><i class="fas fa-video"></i> VCP</a></td>
+                    <td><a href=" https://unity.com/" target="_self"><i class="fab fa-unity"></i> Unity</a></td>
+                   
+                </tr>  
+
+                <tr class="content">
+                    <td><a href="https://web.whatsapp.com/" target="_self"><i class="fab fa-whatsapp"></i> Whatsapp</a></td>
+                    <td><a href="https://www.codepen.io/" target="_self"><i class="fab fa-codepen"></i> CodePen</a></td>
+                    <td><a href="https://outlook.office.com/mail/inbox" target="_self"><i class="fas fa-envelope-square"></i> Outlook</a></td>
+                </tr>
+
+            </table>
+        </div>
+        <script src="bundle.js" async defer></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous"></script>
+        <!--<script src="https://kit.fontawesome.com/8908f651ad.js" crossorigin="anonymous"></script>-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" async defer></script>
+        <script src="startstyle.js" async defer></script>
+        <script src="clock.js" async defer></script>
+       <!--<script src="searchbar.js" async defer></script>--> 
+    </body>
+</html>
